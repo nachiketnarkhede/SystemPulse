@@ -1,0 +1,1 @@
+const C='systempulse-v1';self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['/','/index.html','/style.css','/app.js']))));self.addEventListener('fetch',e=>{if(new URL(e.request.url).pathname.startsWith('/api/'))return;e.respondWith(caches.match(e.request).then(x=>x||fetch(e.request)))})

@@ -1,0 +1,24 @@
+{
+  "product": {
+    "name": "SystemPulse",
+    "type": "Local System Intelligence Platform",
+    "description": "Software-first system telemetry, behavior analysis, risk assessment, and research tooling."
+  },
+  "developer": {
+    "company": "Avyakta NX Systems",
+    "ownership": "Developed by Avyakta NX Systems"
+  },
+  "architecture": {
+    "model": "Local-first",
+    "frontend": "Browser-based HTML/CSS/JavaScript",
+    "agent": "Local Python system agent",
+    "cloud_dependency_for_machine_telemetry": false
+  },
+  "analysis_principles": [
+    "Observe before concluding",
+    "An open or listening port is not, by itself, proof of a vulnerability",
+    "An anomaly is not automatically malicious",
+    "Unavailable hardware telemetry is reported as unavailable rather than fabricated"
+  ],
+  "metadata_version": "1.0"
+}

@@ -1,0 +1,8 @@
+[build]
+  publish = "web"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/cloud-health"
+  to = "/.netlify/functions/health"
+  status = 200
